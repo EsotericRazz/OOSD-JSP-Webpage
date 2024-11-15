@@ -1,6 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Tomcat 11.0.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 11.0.0" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-    <option name="UPDATING_POLICY" value="restart-server" />
+    <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/T1TravelExpertsJSP_war_exploded/rewards" />
+    <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
     <deployment>
       <artifact name="T1TravelExpertsJSP:war exploded">
         <settings>
@@ -9,7 +10,9 @@
       </artifact>
     </deployment>
     <server-settings>
-      <option name="BASE_DIRECTORY_NAME" value="2cf2996b-c6eb-4442-984d-b52c83ca1f7e" />
+      <option name="BASE_DIRECTORY_NAME" value="5d660694-944a-4018-80fe-1d9693d1cc8f" />
+      <option name="HTTP_PORT" value="8081" />
+      <option name="JNDI_PORT" value="1100" />
     </server-settings>
     <predefined_log_file enabled="true" id="Tomcat" />
     <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -17,7 +20,7 @@
     <predefined_log_file id="Tomcat Host Manager" />
     <predefined_log_file id="Tomcat Localhost Access" />
     <RunnerSettings RunnerId="Debug">
-      <option name="DEBUG_PORT" value="61788" />
+      <option name="DEBUG_PORT" value="62054" />
     </RunnerSettings>
     <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
       <option name="USE_ENV_VARIABLES" value="true" />
