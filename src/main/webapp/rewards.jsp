@@ -1,5 +1,10 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
+<!--
+Author:Jessica Lins
+Date:November,2024
+Creates a JSP page that displays a table of rewards,
+loads the reward data via JavaScript on page load, and provides a button to add new rewards.-->
 <html>
 <head>
     <title>Rewards</title>

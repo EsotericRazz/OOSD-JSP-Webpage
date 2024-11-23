@@ -1,6 +1,18 @@
 const API_URL = 'http://localhost:8080/TeamOneREST_war_exploded/api/rewards';
 const APP_URL = 'http://localhost:8081/T1TravelExpertsJSP_war_exploded/rewards'
 
+/*
+Author:Jessica Lins
+Date:November,2024
+Manages rewards by allowing users to view, add, edit, and delete them via AJAX requests to a backend API.
+
+1. The `get` function makes a GET request to a specified URL and processes the response with a callback function.
+2. `getRewards` function fetches a list of rewards from the backend and displays them in an HTML table, with options to edit or delete each reward.
+3. `getReward` function fetches the details of a single reward by its `rewardId` and populates the form fields with that data.
+4. `saveReward` function saves a new or edited reward by sending a POST or PUT request with the reward data to the backend API, and redirects to the rewards page upon success.
+5. `deleteReward` function deletes a reward by sending a DELETE request to the API and reloads the page upon success.
+*/
+
 function get(url, onSuccess) {
     const request = new XMLHttpRequest();
     request.onload = () => {

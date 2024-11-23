@@ -1,4 +1,10 @@
 <jsp:useBean id="rewardId" scope="request" class="java.lang.String"/>
+<!--
+Author:Jessica Lins
+Date:November,2024
+This JSP page allows users to add or edit a reward by displaying a form with fields
+for reward name and description, and a button that either saves or adds the reward
+depending on whether an existing `rewardId` is provided.-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,7 +31,7 @@
 <div class="top">
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Travel Experts</a>
+            <a class="navbar-brand" href="${pageContext.request.contextPath}/rewards">Travel Experts</a>
             <button
                     class="navbar-toggler"
                     type="button"

@@ -5,6 +5,19 @@ import java.io.*;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
+/*
+Author:Jessica Lins.
+Date:November,2024
+
+Defines a `RewardsServlet` that handles GET requests for the `/rewards/` URL pattern.
+
+1. URL Splitting: It splits the request URI by `/` to determine if a `rewardId` is provided.
+If the URI has four parts, it extracts the `rewardId` from the fourth segment.
+2. Handling `rewardId`:
+   - If the `rewardId` is `"new"`, the servlet forwards the request to the `reward.jsp` page for creating a new reward.
+   - If a specific `rewardId` is provided, it sets the `rewardId` as a request attribute and forwards the request to `reward.jsp`.
+3. Default Redirect: If no `rewardId` is provided, it forwards the request to the `rewards.jsp` page, which displays a list of rewards.
+*/
 
 @WebServlet(name = "rewardsServlet", value = "/rewards/*")
 public class RewardsServlet extends HttpServlet {
