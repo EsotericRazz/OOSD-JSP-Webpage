@@ -1,4 +1,5 @@
 # Travel Rewards Web Client
+Made in collaboration with @[JessicaPLins]
 
 A Java-based web client for managing travel rewards, built with JSP and JavaScript. This web application provides a user interface for interacting with the Travel Rewards REST API, featuring complete CRUD operations through an intuitive interface.
 
@@ -87,5 +88,6 @@ src/main/
 [//]: # (- [Android Client Repository] - Mobile client application)
 
 [REST API Repository]: https://github.com/EsotericRazz/OOSD-REST-API
+[JessicaPLins]: https://github.com/JessicaPLins
 
 [//]: # ([Android Client Repository]: [Link to your Android repository])
