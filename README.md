@@ -86,6 +86,6 @@ src/main/
 
 [//]: # (- [Android Client Repository] - Mobile client application)
 
-[REST API Repository]: [https://github.com/EsotericRazz/OOSD-REST-API]
+[REST API Repository]: https://github.com/EsotericRazz/OOSD-REST-API
 
 [//]: # ([Android Client Repository]: [Link to your Android repository])
