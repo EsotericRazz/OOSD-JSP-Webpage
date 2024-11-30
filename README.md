@@ -84,10 +84,8 @@ src/main/
 
 ## Related Projects
 - [REST API Repository] - Backend REST API
-
-[//]: # (- [Android Client Repository] - Mobile client application)
+- [Android Client Repository] - Android client application
 
 [REST API Repository]: https://github.com/EsotericRazz/OOSD-REST-API
 [JessicaPLins]: https://github.com/JessicaPLins
-
-[//]: # ([Android Client Repository]: [Link to your Android repository])
+[Android Client Repository]: https://github.com/EsotericRazz/OOSD-Android-Client
